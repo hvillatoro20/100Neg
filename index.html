@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 Ideas de Negocios Innovadores</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>100 Ideas de Negocios Innovadores</h1>
+            <p>Encuentra tu próxima oportunidad de negocio y aprende cómo implementarla</p>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="filters">
+                <h2>Filtrar por categoría:</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="all">Todas</button>
+                    <button class="filter-btn" data-category="tecnologia">Tecnología</button>
+                    <button class="filter-btn" data-category="ecommerce">E-commerce</button>
+                    <button class="filter-btn" data-category="salud">Salud</button>
+                    <button class="filter-btn" data-category="sostenibilidad">Sostenibilidad</button>
+                    <button class="filter-btn" data-category="educacion">Educación</button>
+                </div>
+            </section>
+
+            <section class="ideas-grid" id="ideas-container">
+                <!-- Las ideas se cargarán dinámicamente con JavaScript -->
+            </section>
+        </div>
+    </main>
+
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal" id="modal">
+            <button class="close-modal" id="close-modal">×</button>
+            <div class="modal-content" id="modal-content">
+                <!-- El contenido del modal se cargará dinámicamente -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
